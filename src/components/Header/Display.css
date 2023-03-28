@@ -1,0 +1,25 @@
+.Display{
+    padding: 20px;
+    flex: 1.5;
+    height: 32.5%;
+    background-color: white;
+    border-radius: 30px;
+    font-weight: 800;
+    font-size:xx-large;
+    overflow-y:scroll ;
+   
+}
+.Display p{
+    display: flex;
+    justify-content: flex-end;
+}
+.expressions{
+    overflow-x: scroll ;
+    width: 100%;
+   
+}
+.expressions p{
+    width: fit-content;
+    white-space: nowrap;
+    min-width: 100%;
+}
